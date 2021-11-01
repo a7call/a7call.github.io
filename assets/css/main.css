@@ -1694,7 +1694,7 @@ input, select, textarea {
 	}
 	.artdiv 
 	{
-		width: 50%;
+		
 		text-align:justify;
 		text-justify: inter-word;
 	}
@@ -1739,7 +1739,8 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			padding-top: 5%;
-			margin: 0 0 2em 0;			
+			margin: 0 0 2em 0;	
+					
 		}
 
 		.image.left {
