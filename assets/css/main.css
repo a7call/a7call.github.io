@@ -1692,7 +1692,6 @@ input, select, textarea {
 	{
 		display: flex;
 	}
-	
 	.artdiv 
 	{
 		width: 50%;
@@ -1736,11 +1735,10 @@ input, select, textarea {
 			object-fit: cover;
 			border-radius: 1%;
 		}
-		
 		.image.featured.large img {
 			display: block;
 			width: 100%;
-
+			padding-top: 5%;
 			margin: 0 0 2em 0;
 			
 			
