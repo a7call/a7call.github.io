@@ -52,3 +52,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$$(document).ready(function() {
+
+    if(window.location.href.indexOf('#SpaceWander') != -1) {
+      $('#portfolioModal2').modal('show');
+    }
+  
+  });
