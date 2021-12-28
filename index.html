@@ -702,15 +702,30 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
-    <script>
-        $$(document).ready(function() {
+    <!-- jQuery -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- BS JavaScript -->
+<!-- Have fun using Bootstrap JS -->
+<script type="text/javascript">
+$(window).load(function() {
+    if(window.location.href.indexOf('#spaceWander') != -1) {
 
-        if(window.location.href.indexOf('#portfolioModal2') != -1) {
-        $('#portfolioModal2').modal('show');
-        }
+    $('#portfolioModal1').modal('show');
+    }
 
-        });
-        
-        </script>
+    if(window.location.href.indexOf('#shapeDungeon2') != -1) {
+
+    $('#portfolioModal2').modal('show');
+    }
+    if(window.location.href.indexOf('#mars') != -1) {
+
+    $('#portfolioModal7').modal('show');
+    }
+    if(window.location.href.indexOf('#daddyjeveuxunepeuluche') != -1) {
+
+    $('#portfolioModal8').modal('show');
+    }
+});
+</script>
 </html>
 
